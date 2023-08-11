@@ -7,18 +7,53 @@
    display: flex;
    justify-content: space-evenly;
    height: 70px;
+   padding-left: 90px;
 }
 .right{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    padding-right: 100px;
+    height: 70px;
 }
 .text{
     color: white;
-}
-.logo{
-    background-color: green;
+
 }
 
+.icon{
+    padding-top: 5%;
+    
+}
+.subhead{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.lef{
+    display: flex;
+    justify-content: space-between;
+}
+.sublogo{
+    width: 20%;
+    padding-left: 90px;
+}
+.li{
+  padding-top: 7%;
+}
+.li a{
+    
+    color: black;
+}
+.lii{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.rig{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -40,4 +75,5 @@
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
     color: white;
+    
 }
